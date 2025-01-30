@@ -33,4 +33,13 @@
           />
       </dependentAssembly>
   </dependency>
+
+    <trustInfoxmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevellevel="requireAdministrator" uiAccess="false"/>
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  
 </assembly>
