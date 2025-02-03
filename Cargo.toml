@@ -177,10 +177,10 @@ members = ["libs/scrap", "libs/hbb_common", "libs/enigo", "libs/clipboard", "lib
 exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
-LegalCopyright = "Copyright © 2024 Purslane Ltd. All rights reserved."
-ProductName = "RustDesk"
-FileDescription = "RustDesk Remote Desktop"
-OriginalFilename = "rustdesk.exe"
+LegalCopyright = "本软件由开源代码修改而来，免费提供，不参与任何盈利性商业活动."
+ProductName = "ApexhHelp"
+FileDescription = "ApexhHelp"
+OriginalFilename = "ApexhHelp.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
 winres = "0.1"
